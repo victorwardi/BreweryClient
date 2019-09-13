@@ -1,4 +1,4 @@
-package run.victor.brewery.domain;
+package run.victor.brewery.web.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,10 +9,9 @@ import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.UUID;
 
-import com.fasterxml.jackson.annotation.JsonTypeId;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
